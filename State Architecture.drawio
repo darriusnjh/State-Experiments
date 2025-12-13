@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2">
   <diagram name="Page-1" id="xCF_mj9januaiwn6ckrx">
-    <mxGraphModel dx="4100" dy="3157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2929" dy="2589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,13 +46,13 @@
         <mxCell id="n-HRgWj31BNs-haplmrc-111" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Transformer Layer (16 attention heads)" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" value="Transformer Layer (16 attention heads)" vertex="1">
           <mxGeometry height="230" width="160" x="1085" y="180" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-106" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
           <mxGeometry height="230" width="70" x="1400" y="180" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-112" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-108">
@@ -64,7 +64,7 @@
         <mxCell id="n-HRgWj31BNs-haplmrc-41" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" value="linear layer (f.proj) (dim 2048 -&amp;gt; 10)" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" value="linear layer (f.proj) (dim H&lt;sub&gt;E&lt;/sub&gt; -&amp;gt; 10)" vertex="1">
           <mxGeometry height="60" width="100" x="1870" y="350" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-100" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-99">
@@ -82,7 +82,7 @@
         <mxCell id="n-HRgWj31BNs-haplmrc-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[DS] Token" vertex="1">
           <mxGeometry height="30" width="70" x="1800" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;#&lt;/font&gt;" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-39" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#B9E0A5;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;#&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="50" x="1990" y="260" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-40" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-79" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n-HRgWj31BNs-haplmrc-39" value="">
@@ -94,116 +94,95 @@
             <mxPoint x="1885" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9999FF;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="300" width="810" x="890" y="159" as="geometry" />
+        </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-42" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-39" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1970" y="340" as="sourcePoint" />
             <mxPoint x="2120" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9999FF;strokeWidth=3;" value="" vertex="1">
-          <mxGeometry height="300" width="810" x="890" y="160" as="geometry" />
-        </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px; color: rgb(153, 153, 255);&quot;&gt;&lt;b&gt;Transformer Layer X16&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="920" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2000 HVG" vertex="1">
-          <mxGeometry height="220" width="73" x="1550" y="880" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Perturbation Label (One hot encoded)" vertex="1">
-          <mxGeometry height="220" width="73" x="1550" y="1140" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Batch Label (One hot encoded)" vertex="1">
-          <mxGeometry height="220" width="73" x="1550" y="1400" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="" vertex="1">
           <mxGeometry height="100" width="350" x="152" y="-80" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Legend&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="152" y="-120" as="geometry" />
+          <mxGeometry height="30" width="60" x="152" y="-113" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Transformer Backbone (LLaMa / GPT2) - SwiGLU" vertex="1">
-          <mxGeometry height="220" width="153" x="1973" y="1140" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-55" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="O" vertex="1">
-          <mxGeometry height="80" width="80" x="2243" y="1210" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Gene Reconstruction Head (dim G)" vertex="1">
-          <mxGeometry height="220" width="130" x="2353" y="1130" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="G = 2000 HVG" vertex="1">
-          <mxGeometry height="30" width="133" x="296.5" y="-70" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="G = 2000 (ST) / 2048 (SE) HVG" vertex="1">
+          <mxGeometry height="30" width="183.5" x="300" y="-70" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-128" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n-HRgWj31BNs-haplmrc-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SE Output (dim 2050)" vertex="1">
-          <mxGeometry height="150" width="73" x="2120" y="200" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="SE Output (dim 2050)" vertex="1">
+          <mxGeometry height="150" width="73" x="2120" y="210" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-120" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-HRgWj31BNs-haplmrc-119" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Control Cell Encoder (dim 1440)" vertex="1">
-          <mxGeometry height="150" width="73" x="2375" y="200" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Control Cell Encoder (dim H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="150" width="73" x="2375" y="210" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-126" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Perturbation Label (One hot encoded)" vertex="1">
-          <mxGeometry height="150" width="73" x="2120" y="20" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="Perturbation Label (One hot encoded)" vertex="1">
+          <mxGeometry height="150" width="73" x="2120" y="30" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-130" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n-HRgWj31BNs-haplmrc-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Batch Label (One hot encoded)" vertex="1">
-          <mxGeometry height="150" width="73" x="2120" y="380" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="Batch Label (One hot encoded)" vertex="1">
+          <mxGeometry height="150" width="73" x="2120" y="390" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-121" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Perturbation Encoder (MLP -&amp;gt; dim 1440) - GeLu" vertex="1">
-          <mxGeometry height="150" width="73" x="2375" y="20" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Perturbation Encoder (MLP -&amp;gt; dim H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;) - GeLu" vertex="1">
+          <mxGeometry height="150" width="73" x="2375" y="30" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-122" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-119">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Batch Encoder (dim 1440)" vertex="1">
-          <mxGeometry height="150" width="73" x="2250" y="380" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="Batch Encoder (dim H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="150" width="73" x="2250" y="390" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-144" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" value="Transformer Backbone (LLaMa / GPT2)" vertex="1">
-          <mxGeometry height="235" width="153" x="2710" y="165" as="geometry" />
+          <mxGeometry height="235" width="153" x="2710" y="175" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-145" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="f_recon (dim H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;E&lt;/sub&gt;&lt;/span&gt;)" vertex="1">
-          <mxGeometry height="235" width="130" x="3110" y="165" as="geometry" />
+          <mxGeometry height="235" width="130" x="3110" y="175" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="f_decode (dim 1024 -&amp;gt; 512 -&amp;gt; G) - GeLU" vertex="1">
-          <mxGeometry height="235" width="130" x="3460" y="165" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RMSNorm" vertex="1">
-          <mxGeometry height="220" width="70" x="2143" y="1140" as="geometry" />
+          <mxGeometry height="235" width="130" x="3460" y="175" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-129" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
-          <mxGeometry height="150" width="73" x="2250" y="200" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
+          <mxGeometry height="150" width="73" x="2250" y="210" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-127" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
-          <mxGeometry height="150" width="73" x="2250" y="20" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
+          <mxGeometry height="150" width="73" x="2250" y="30" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-143" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RMSNorm" vertex="1">
-          <mxGeometry height="235" width="70" x="2910" y="165" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="RMSNorm" vertex="1">
+          <mxGeometry height="235" width="70" x="2910" y="175" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-80" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-113" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.992;exitY=0.085;exitDx=0;exitDy=0;exitPerimeter=0;" target="n-HRgWj31BNs-haplmrc-79" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -212,32 +191,17 @@
             <mxPoint x="1890.1" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
           <mxGeometry height="40" width="85" x="1877.5" y="180" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[CLS] Token" vertex="1">
           <mxGeometry height="30" width="70" x="1800" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Control Cell Encoder (dim 1440)" vertex="1">
-          <mxGeometry height="220" width="73" x="1813" y="880" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Perturbation Encoder (MLP -&amp;gt; dim 1440) - GeLu" vertex="1">
-          <mxGeometry height="220" width="73" x="1813" y="1140" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Batch Encoder (dim 1440)" vertex="1">
-          <mxGeometry height="220" width="73" x="1683" y="1400" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
-          <mxGeometry height="220" width="73" x="1683" y="880" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
-          <mxGeometry height="220" width="73" x="1684" y="1140" as="geometry" />
-        </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-146" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n-HRgWj31BNs-haplmrc-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
-          <mxGeometry height="235" width="73" x="3311" y="165" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
+          <mxGeometry height="235" width="73" x="3311" y="175" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Expression Values of [CLS] and [DS] are set to 0" vertex="1">
           <mxGeometry height="30" width="150" x="180" y="420" as="geometry" />
@@ -245,13 +209,13 @@
         <mxCell id="n-HRgWj31BNs-haplmrc-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;E&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;= 2048" vertex="1">
           <mxGeometry height="30" width="133" x="156.5" y="-70" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;= 2048" vertex="1">
-          <mxGeometry height="30" width="133" x="156.5" y="-40" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;= 1440" vertex="1">
+          <mxGeometry height="30" width="133" x="156.5" y="-45" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-110" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LayerNorm" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
           <mxGeometry height="230" width="70" x="970" y="180" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-95" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-26">
@@ -260,13 +224,13 @@
         <mxCell id="n-HRgWj31BNs-haplmrc-102" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-99" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-99" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F19C99;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="50" x="814" y="270" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-105" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-103" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-103" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F19C99;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="50" x="1290" y="270" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-104" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-103" value="">
@@ -291,10 +255,10 @@
             <mxPoint x="1746" y="320.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-108" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-108" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F19C99;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="50" x="1610" y="270" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Output" vertex="1">
+        <mxCell id="n-HRgWj31BNs-haplmrc-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="Output" vertex="1">
           <mxGeometry height="230" width="60" x="1730" y="180" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-114" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
@@ -311,37 +275,135 @@
         <mxCell id="n-HRgWj31BNs-haplmrc-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 18px; color: rgb(0, 204, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;Top 2048 Genes&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="160" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-119" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="2540" y="250" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-119" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F19C99;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="2540" y="260" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="dim (BxSxH&lt;sub&gt;T&lt;/sub&gt;)" vertex="1">
-          <mxGeometry height="30" width="100" x="2590" y="240" as="geometry" />
+          <mxGeometry height="30" width="100" x="2590" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="B = 2048" vertex="1">
-          <mxGeometry height="30" width="133" x="156.5" y="-10" as="geometry" />
-        </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-132" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="S = 256 (Cell Set Size)" vertex="1">
-          <mxGeometry height="30" width="133" x="296.5" y="-45" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-132" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="S = 256 (Cell Set Size)" vertex="1">
+          <mxGeometry height="30" width="133" x="300" y="-45" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-142" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n-HRgWj31BNs-haplmrc-133" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="50" x="3020" y="257.5" as="geometry" />
+        <mxCell id="n-HRgWj31BNs-haplmrc-133" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F19C99;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="3020" y="267.5" as="geometry" />
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-134" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-133" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="2640" y="424.5" />
-              <mxPoint x="2779" y="424.5" />
-              <mxPoint x="3045" y="425" />
+              <mxPoint x="2640" y="434.5" />
+              <mxPoint x="2779" y="434.5" />
+              <mxPoint x="3045" y="435" />
             </Array>
-            <mxPoint x="2640" y="275" as="sourcePoint" />
-            <mxPoint x="2914" y="304.5" as="targetPoint" />
+            <mxPoint x="2640" y="285" as="sourcePoint" />
+            <mxPoint x="2914" y="314.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n-HRgWj31BNs-haplmrc-141" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" target="n-HRgWj31BNs-haplmrc-66">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-147" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="+ = addition" vertex="1">
+          <mxGeometry height="30" width="83.5" x="190" y="-19" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-148" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="# = concatenation" vertex="1">
+          <mxGeometry height="30" width="110" x="300" y="-19" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-211" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n-HRgWj31BNs-haplmrc-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-212" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="2000 HVG expression values" vertex="1">
+          <mxGeometry height="150" width="73" x="2120" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-213" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="n-HRgWj31BNs-haplmrc-236" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-214" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Control Cell Encoder (dim H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="150" width="73" x="2375" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-215" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-216" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="Perturbation Label (One hot encoded)" vertex="1">
+          <mxGeometry height="150" width="73" x="2120" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-217" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="n-HRgWj31BNs-haplmrc-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-218" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="Batch Label (One hot encoded)" vertex="1">
+          <mxGeometry height="150" width="73" x="2120" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-219" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-220" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Perturbation Encoder (MLP -&amp;gt; dim H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;) - GeLu" vertex="1">
+          <mxGeometry height="150" width="73" x="2375" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-221" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-222" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="Batch Encoder (dim H&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;T&lt;/sub&gt;&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="150" width="73" x="2250" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-223" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-233">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-224" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#A9C4EB;" value="Transformer Backbone (LLaMa / GPT2)" vertex="1">
+          <mxGeometry height="235" width="153" x="2710" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-226" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Gene reconstruction head (dim G)" vertex="1">
+          <mxGeometry height="235" width="130" x="3110" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-228" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-229" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
+          <mxGeometry height="150" width="73" x="2250" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-230" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-231" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="LayerNorm" vertex="1">
+          <mxGeometry height="150" width="73" x="2250" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-232" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-239">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-233" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="RMSNorm" vertex="1">
+          <mxGeometry height="235" width="70" x="2910" y="815" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-236" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F19C99;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="2540" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-237" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="dim (BxSxH&lt;sub&gt;T&lt;/sub&gt;)" vertex="1">
+          <mxGeometry height="30" width="100" x="2590" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-238" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-239" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#F19C99;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;+&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="3020" y="907.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-240" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="n-HRgWj31BNs-haplmrc-239" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2640" y="1074.5" />
+              <mxPoint x="2779" y="1074.5" />
+              <mxPoint x="3045" y="1075" />
+            </Array>
+            <mxPoint x="2640" y="925" as="sourcePoint" />
+            <mxPoint x="2914" y="954.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-241" edge="1" parent="1" source="n-HRgWj31BNs-haplmrc-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" target="n-HRgWj31BNs-haplmrc-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-242" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#9933FF;shadow=0;strokeWidth=4;arcSize=7;" value="" vertex="1">
+          <mxGeometry height="1390" width="1550" x="2080" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="n-HRgWj31BNs-haplmrc-244" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 48px; color: rgb(153, 51, 255);&quot;&gt;State Transition Model&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="590" x="2120" y="-130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
