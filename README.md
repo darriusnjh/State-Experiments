@@ -98,11 +98,16 @@ $$
 The final loss depends on whether the model is trained on raw expression (HVG) or embeddings (SE):
 
 * **ST + HVG (Raw Expression):**
-    $$
-    \mathcal{L}_{total} = \mathcal{L}_{MMD}(\hat{X}_{target}, X_{target})
-    $$
+
+$$
+\mathcal{L}_{total} = \mathcal{L}_{MMD}(\hat{X}_{target}, X_{target})
+$$
+
 
 * **SE + ST (State Embeddings):**
 
-    $$\mathcal{L}_{total} = \mathcal{L}_{MMD}(\hat{X}_{target}^{emb}, X_{target}^{emb}) + 0.1 \cdot \mathcal{L}_{MMD}(\hat{X}_{target}, X_{target})$$
-    This uses a weighted combination of MMD losses in both the embedding and gene expression spaces. The expression loss is weighted down by a factor of 0.1 to balance the two terms and avoid overwhelming the primary objective in the embedding space.
+$$
+\mathcal{L}_{total} = \mathcal{L}_{MMD}(\hat{X}_{target}^{emb}, X_{target}^{emb}) + 0.1 \cdot \mathcal{L}_{MMD}(\hat{X}_{target}, X_{target})
+$$
+
+This uses a weighted combination of MMD losses in both the embedding and gene expression spaces. The expression loss is weighted down by a factor of 0.1 to balance the two terms and avoid overwhelming the primary objective in the embedding space.
